@@ -814,7 +814,9 @@ const CreateMonitorPage = () => {
 											renderInput={(params) => (
 												<TextField
 													{...params}
-													fieldLabel={t("pages.createMonitor.form.escalation.channelsLabel")}
+													fieldLabel={t(
+														"pages.createMonitor.form.escalation.channelsLabel"
+													)}
 													error={!!fieldState.error}
 													helperText={fieldState.error?.message}
 												/>
